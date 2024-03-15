@@ -13,7 +13,7 @@ export default function Footer() {
         <Col lg={8} sm={12}>
             <div>
                 <h4>Redes Sociais</h4>
-                <p><a href="//facebook.com" target="_blank">Facebooj</a></p>
+                {/* <p><a href="//facebook.com" target="_blank">Facebooj</a></p> */}
                 <p>Instagram</p>
             </div>
         </Col>

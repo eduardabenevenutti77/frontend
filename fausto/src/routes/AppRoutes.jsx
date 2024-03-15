@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Inicial from "../pages/Inicial";
 import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
+import Album from "../pages/Album";
 import Body from "../layout/Body";
 
 export default function AppRoutes() {
@@ -12,6 +13,7 @@ export default function AppRoutes() {
           <Route path="/" element={<Inicial />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/album" element={<Album />} />
         </Route>
       </Routes>
     </BrowserRouter>
