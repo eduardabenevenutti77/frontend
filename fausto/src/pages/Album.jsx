@@ -6,65 +6,74 @@ const Album = () => {
         <Container className="grid">
             <Card>
                 <Card.Body>
-                        <Card.Title>Título do Álbum</Card.Title>
+                        <Card.Img className="img" variant="top" src="https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png" />  
+                        <Card.Title>This is a bunny 🐰</Card.Title>
                         <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
-                        <Button className="button">Ouvir</Button>
+                        <Button className="button">Abrir</Button>
                 </Card.Body>
             </Card>
             <Card>
                 <Card.Body>
-                    <Card.Title>Título do Álbum</Card.Title>
+                    <Card.Img className="img" variant="top" src="https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png" />  
+                    <Card.Title>This is a bunny 🐰</Card.Title>
                     <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
-                    <Button className="button">Ouvir</Button>
+                    <Button className="button">Abrir</Button>
                 </Card.Body>
             </Card>
             <Card>
                 <Card.Body>    
-                    <Card.Title>Título do Álbum</Card.Title>
+                    <Card.Img className="img" variant="top" src="https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png" />  
+                    <Card.Title>This is a bunny 🐰</Card.Title>
                     <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
-                    <Button className="button">Ouvir</Button>
+                    <Button className="button">Abrir</Button>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Body>   
+                    <Card.Img className="img" variant="top" src="https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png" />  
+                    <Card.Title>This is a bunny 🐰</Card.Title>
+                    <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
+                    <Button className="button">Abrir</Button>
                 </Card.Body>
             </Card>
             <Card>
                 <Card.Body>    
-                    <Card.Title>Título do Álbum</Card.Title>
+                <   Card.Img className="img" variant="top" src="https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png" />  
+                    <Card.Title>This is a bunny 🐰</Card.Title>
                     <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
-                    <Button className="button">Ouvir</Button>
+                    <Button className="button">Abrir</Button>
                 </Card.Body>
             </Card>
             <Card>
                 <Card.Body>    
-                    <Card.Title>Título do Álbum</Card.Title>
+                    <Card.Img className="img" variant="top" src="https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png" />  
+                    <Card.Title>This is a bunny 🐰</Card.Title>
                     <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
-                    <Button className="button">Ouvir</Button>
+                    <Button className="button">Abrir</Button>
                 </Card.Body>
             </Card>
             <Card>
-                <Card.Body>    
-                    <Card.Title>Título do Álbum</Card.Title>
+                <Card.Body>   
+                    <Card.Img className="img" variant="top" src="https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png" />  
+                    <Card.Title>This is a bunny 🐰</Card.Title>
                     <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
-                    <Button className="button">Ouvir</Button>
+                    <Button className="button">Abrir</Button>
                 </Card.Body>
             </Card>
             <Card>
-                <Card.Body>    
-                    <Card.Title>Título do Álbum</Card.Title>
+                <Card.Body>   
+                    <Card.Img className="img" variant="top" src="https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png" />  
+                    <Card.Title>This is a bunny 🐰</Card.Title>
                     <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
-                    <Button className="button">Ouvir</Button>
+                    <Button className="button">Abrir</Button>
                 </Card.Body>
             </Card>
             <Card>
-                <Card.Body>    
-                    <Card.Title>Título do Álbum</Card.Title>
+                <Card.Body>  
+                    <Card.Img className="img" variant="top" src="https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png" />  
+                    <Card.Title>This is a bunny 🐰</Card.Title>
                     <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
-                    <Button className="button">Ouvir</Button>
-                </Card.Body>
-            </Card>
-            <Card>
-                <Card.Body>    
-                    <Card.Title>Título do Álbum</Card.Title>
-                    <Card.Text>Esta é uma breve descrição do álbum.</Card.Text>
-                    <Button className="button">Ouvir</Button>
+                    <Button className="button">Abrir</Button>
                 </Card.Body>
             </Card>
         </Container>
