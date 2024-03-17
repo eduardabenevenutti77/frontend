@@ -1,0 +1,20 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.button {
+    background-color: #98d196;
+    border: #98d196;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.button:hover{
+    background-color: #dbf3da;
+    color: black;
+}

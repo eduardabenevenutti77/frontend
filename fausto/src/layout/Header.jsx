@@ -5,16 +5,8 @@ export default function Header() {
   return (
     <Navbar expand={"lg"}>
       <Container>
-        <Navbar.Brand as={Link}>Juarema App</Navbar.Brand>
+        <Navbar.Brand as={Link}>Mary's App</Navbar.Brand>
         <Navbar.Toggle aria-controls="minhanav" />
-        <Navbar.Collapse
-          id="minhanav"
-          style={{
-            justifyContent: "space-between",
-            width: "100%",
-            alignSelf: "stretch",
-          }}
-        >
           <Navbar.Text as={Link} to="/">
             Inicial
           </Navbar.Text>
@@ -24,8 +16,9 @@ export default function Header() {
           <Navbar.Text as={Link} to="/contato">
             Contato
           </Navbar.Text>
-          <Navbar.Text as={Link} to="/album">Album</Navbar.Text>
-        </Navbar.Collapse>
+          <Navbar.Text as={Link} to="/album">
+            Album
+          </Navbar.Text>
       </Container>
     </Navbar>
   );

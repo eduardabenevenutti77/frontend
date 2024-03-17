@@ -2,22 +2,30 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export default function Footer() {
   return (
-    <Container>
-      <Row>
-        <Col lg={4} sm={12}> 
-          <div>
-            <h4>Sobre a empresa</h4>
-            <p>Av Visconde de Taunay 666666</p>
-          </div>
-        </Col>
-        <Col lg={8} sm={12}>
+    <div className="footer">
+      <Container className="background">
+        <Row>
+          <Col lg={2} sm={12}> 
             <div>
-                <h4>Redes Sociais</h4>
-                {/* <p><a href="//facebook.com" target="_blank">Facebooj</a></p> */}
-                <p>Instagram</p>
+              <h4>Professor: </h4>
+              {/* <p><a href="//facebook.com" target="_blank">Facebooj</a></p> */}
+              <p>Fausto</p>
             </div>
-        </Col>
-      </Row>
-    </Container>
+          </Col>
+          <Col lg={6} sm={12}>
+            <div>
+              <h4>Aluna: </h4>
+              <p>Maria Eduarda Benevenutti</p>
+            </div>
+          </Col>
+          <Col lg={2} sm={12}>
+            <div>
+              <h4>Assunto: </h4>
+              <p>React</p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
