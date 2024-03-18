@@ -1,20 +1,19 @@
 /* Estilos da navbar */
 .navbar {
-    background-color: #6dd16a; /* Cor de fundo da navbar */
-    color: #fff; /* Cor do texto na navbar */
-  }
+    background-color: #619c5f; 
+    color: #fff; 
+}
   
-  /* Estilos dos links na navbar */
 .navbar-text {
-    padding: 10px 20px; /* Preenchimento dos links */
-    margin-right: 10px; /* Margem direita entre os links */
-    font-size: 18px; /* Tamanho da fonte */
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    font-size: 18px; 
     text-decoration: none; 
     cursor: pointer; 
     font-family: cursive;
 }
   
 .navbar-text:hover {
-    background-color: #6dd16a;
+    background-color: #619c5f;
 }
   
