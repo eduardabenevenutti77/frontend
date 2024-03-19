@@ -1,11 +1,10 @@
-import { Container, Navbar } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <Navbar expand={"lg"}>
-      <Container>
-        <Navbar.Brand as={Link}>Mary's App</Navbar.Brand>
+        <Navbar.Brand as={Link} className="logo">Mary's App</Navbar.Brand>
         <Navbar.Toggle aria-controls="minhanav" />
           <Navbar.Text as={Link} to="/">
             Inicial
@@ -19,7 +18,6 @@ export default function Header() {
           <Navbar.Text as={Link} to="/album">
             Album
           </Navbar.Text>
-      </Container>
     </Navbar>
   );
 }
